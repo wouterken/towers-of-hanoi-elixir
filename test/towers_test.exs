@@ -1,7 +1,8 @@
 defmodule TowersTest do
   use ExUnit.Case
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  test "run solver" do
+    Solver.solve(%Board{})
   end
+
 end
